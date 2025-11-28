@@ -3,7 +3,7 @@
 **Versão:** 1.0  
 **Módulo:** SAGE Education  
 **Desenvolvedor:** Zacarias Juliano Capingala *(Homem Marketing)*  
-**Data:** 21/11/2025
+**Data:** 10/12/2021
 
 ---
 
@@ -16,14 +16,13 @@ O seu design ***modular, escalável e seguro*** permite que seja implementado em
 O SAGE Education conta com uma comunidade crescente, comprometida e amigável que traz o melhor dos campos das ***ciências da educação, pedagogia, tecnologia educacional e ciências da computação***.
 Não importa onde no mundo você vive, somos apaixonados por manter a educação e a tecnologia educacional como um direito humano inegociável.
 Esperamos que você considere o **SAGE Education** motivador e inspirador, e estamos ansiosos para tê-lo como parte da equipe.
-
 ---
 
 ## ⚙️ Módulo Akademy Classe
 
 O **Akademy Classe (Gestão de Turmas)** é um módulo complementar responsável pela **gestão acadêmica com foco em turmas**, mantendo todas as informações organizadas e acessíveis à instituição.  
 
-Ele oferece ferramentas avançadas para o **controlo de turmas, docentes e discentes**, permitindo acompanhar o desempenho e o progresso de cada aluno de forma centralizada e eficiente.  
+Ele oferece ferramentas avançadas para o **controlo de turmas, docentes e discentes**, permitindo acompanhar o desempenho e o progresso de cada aluno de forma centralizada e eficiente.
 
 ---
 
@@ -42,3 +41,18 @@ Caso encontre erros ou deseje obter suporte técnico, entre em contato pelos can
 - 📧 **E-mail:** [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
 - 💬 **WhatsApp:** [+244 926 585 345](https://wa.me/244926585345)
 
+---
+
+## 🧩 Instalação
+
+### 📋 Requisitos
+
+Antes de iniciar, certifique-se de ter os seguintes componentes instalados:
+
+- [Tryton Server](https://www.tryton.org/)
+- [Tryton Client](https://www.tryton.org/)
+
+Além dos módulos base:
+
+```bash
+pip install git+https://github.com/zacariasjuliano/akademy_classe
