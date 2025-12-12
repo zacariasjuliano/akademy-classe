@@ -63,7 +63,7 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="act_window" ref="act_classe_student"/>
                 </record>
                 <menuitem name="Discentes" parent="akademy_classes" id="akademy_classe_student" 
-                        sequence="16" action="act_classe_student"/> 
+                        icon="tryton-party" sequence="16" action="act_classe_student"/> 
                                 
                 <record model="ir.ui.view" id="classe_student_discipline_view_form">
                         <field name="model">akademy_classe.classe.student.discipline</field>
@@ -124,7 +124,7 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="act_window" ref="act_classe_teacher"/>
                 </record>
                 <menuitem name="Docentes" parent="akademy_classes" id="akademy_classe_teacher" 
-                        sequence="24" action="act_classe_teacher"/>
+                        icon="tryton-party" sequence="24" action="act_classe_teacher"/>
                         
                 <record model="ir.ui.view" id="classe_teacher_discipline_view_form">
                         <field name="model">akademy_classe.classe.teacher.discipline</field>

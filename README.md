@@ -1,7 +1,7 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
 **Version:** 1.0  
-**Module:** Akademy Classe 
+**Module:** Akademy Classe  
 **Developer:** Zacarias Juliano Capingala *(Homem Marketing)*  
 **Date:** 21/11/2025
 
