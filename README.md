@@ -21,7 +21,7 @@ We hope you find **SAGE Education** motivating and inspiring, and we look forwar
 
 ---
 
-## ⚙️ Akademy Class Module
+## Akademy Class Module
 
 The **Akademy Class (Class Management)** module is a complementary module responsible for **academic management focused on classes**, keeping all information organized and accessible to the institution.
 
