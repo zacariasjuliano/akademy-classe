@@ -176,7 +176,7 @@ msgstr "Métricas"
 
 msgctxt "model:ir.ui.menu,name:akademy_config_lective_year"
 msgid "Anos letivos"
-msgstr "Anos letivos"
+msgstr "Anos Letivos"
 
 msgctxt "model:ir.ui.menu,name:akademy_config_pre"
 msgid "Pré-Configurados"
@@ -196,7 +196,7 @@ msgstr "Tipos de Aula"
 
 msgctxt "model:ir.ui.menu,name:akademy_config_classe_time_type"
 msgid "Tempos letivo"
-msgstr "Tempos letivos"
+msgstr "Tempos Letivos"
 
 msgctxt "model:ir.ui.menu,name:akademy_config_matriculation_type"
 msgid "Tipos de matrícula"
