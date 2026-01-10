@@ -9,7 +9,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Plano de estudo</field>
                         <field name="report_name">akademy_report.studyplan.report</field>
                         <field name="model">akademy_configuration.studyplan</field>
-                        <field name="report">akademy_classe/reports/studyplan.odt</field>
+                        <field name="report">akademy_classe/reports/studyplan.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="studyplan_report_keyword">
                         <field name="keyword">form_print</field>
@@ -22,7 +23,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Níveis académico</field>
                         <field name="report_name">akademy_report.academic.level.report</field>
                         <field name="model">akademy_configuration.academic.level</field>
-                        <field name="report">akademy_classe/reports/academic_level.odt</field>
+                        <field name="report">akademy_classe/reports/academic_level.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="academic_level_report_keyword">
                         <field name="keyword">form_print</field>
@@ -35,7 +37,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Boletim matrícula</field>
                         <field name="report_name">akademy_report.matriculation.report</field>
                         <field name="model">akademy_classe.classe.student</field>
-                        <field name="report">akademy_classe/reports/matriculation.odt</field>
+                        <field name="report">akademy_classe/reports/matriculation.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="matriculation_report_keyword">
                         <field name="keyword">form_print</field>
@@ -47,7 +50,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Estado da matrícula</field>
                         <field name="report_name">akademy_report.matriculation.state.report</field>
                         <field name="model">akademy_classe.classe.student</field>
-                        <field name="report">akademy_classe/reports/matriculation_state.odt</field>
+                        <field name="report">akademy_classe/reports/matriculation_state.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="matriculation_state_report_keyword">
                         <field name="keyword">form_print</field>
@@ -59,7 +63,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Recibo de matrícula</field>
                         <field name="report_name">akademy_report.matriculation.teacher.report</field>
                         <field name="model">akademy_classe.classe.teacher</field>
-                        <field name="report">akademy_classe/reports/matriculation_teacher.odt</field>
+                        <field name="report">akademy_classe/reports/matriculation_teacher.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="matriculation_teacher_report_keyword">
                         <field name="keyword">form_print</field>
@@ -72,7 +77,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Ficha da turma</field>
                         <field name="report_name">akademy_report.classes.report</field>
                         <field name="model">akademy_classe.classes</field>
-                        <field name="report">akademy_classe/reports/classes.odt</field>
+                        <field name="report">akademy_classe/reports/classes.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="classes_report_keyword">
                         <field name="keyword">form_print</field>
@@ -84,7 +90,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Horário</field>
                         <field name="report_name">akademy_report.classes.report</field>
                         <field name="model">akademy_classe.classes</field>
-                        <field name="report">akademy_classe/reports/classes_timerule.odt</field>
+                        <field name="report">akademy_classe/reports/classes_timerule.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="classes_timerule_report_keyword">
                         <field name="keyword">form_print</field>
@@ -96,7 +103,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Horário</field>
                         <field name="report_name">akademy_report.classe.student.timerule.report</field>
                         <field name="model">akademy_classe.classe.student</field>
-                        <field name="report">akademy_classe/reports/classes_student_timerule.odt</field>
+                        <field name="report">akademy_classe/reports/classes_student_timerule.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="classe_student_timerule_report_keyword">
                         <field name="keyword">form_print</field>
@@ -108,7 +116,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Horário</field>
                         <field name="report_name">akademy_report.classe.teacher.timerule.report</field>
                         <field name="model">akademy_classe.classe.teacher</field>
-                        <field name="report">akademy_classe/reports/classes_teacher_timerule.odt</field>
+                        <field name="report">akademy_classe/reports/classes_teacher_timerule.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="classe_teacher_timerule_report_keyword">
                         <field name="keyword">form_print</field>
@@ -120,7 +129,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Lista de Discentes</field>
                         <field name="report_name">akademy_report.classes.report</field>
                         <field name="model">akademy_classe.classes</field>
-                        <field name="report">akademy_classe/reports/classes_students.odt</field>
+                        <field name="report">akademy_classe/reports/classes_students.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="classes_students_report_keyword">
                         <field name="keyword">form_print</field>
@@ -132,7 +142,8 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Lista de Docentes</field>
                         <field name="report_name">akademy_report.classes.report</field>
                         <field name="model">akademy_classe.classes</field>
-                        <field name="report">akademy_classe/reports/classes_teachers.odt</field>
+                        <field name="report">akademy_classe/reports/classes_teachers.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="classes_teachers_report_keyword">
                         <field name="keyword">form_print</field>
@@ -145,13 +156,13 @@ this repository contains the full copyright notices and license terms. -->
                         <field name="name">Plano de aula</field>
                         <field name="report_name">akademy_report.classes.discipline.lessons.report</field>
                         <field name="model">akademy_classe.classe.teacher.lesson</field>
-                        <field name="report">akademy_classe/reports/discipline_lessons.odt</field>
+                        <field name="report">akademy_classe/reports/discipline_lessons.fodt</field>
+                        <field name="extension">pdf</field>
                 </record>
                 <record model="ir.action.keyword" id="discipline_lessons_report_keyword">
                         <field name="keyword">form_print</field>
                         <field name="model">akademy_classe.classe.teacher.lesson,-1</field>
                         <field name="action" ref="discipline_lessons_report"/>
-                </record>
-        
+                </record>        
 	</data>
 </trytond>
