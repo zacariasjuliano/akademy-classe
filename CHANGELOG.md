@@ -4,6 +4,16 @@ All changes made in **akademy-classe** project will be listed in this file.
 The format as follows the recomendations of [Keep a Changelog](https://keepachangelog.com/pt-BR/1.0.0/). And Semantic Versioning
 
 
+## [1.1.0] - 2026-01-18
+### Changed
+- Start update to Tryton version 7.0
+
+
+## [1.0.6] - 2026-01-10
+### Changed
+- Report Default PDF
+
+
 ## [1.0.5] - 2026-01-02
 ### Changed
 - Repository hosting transferred to primary maintainer’s GitHub account to ensure continued development and releases
