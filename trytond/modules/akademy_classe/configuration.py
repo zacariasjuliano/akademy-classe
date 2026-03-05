@@ -9,7 +9,6 @@ from trytond.exceptions import UserError
 from trytond.transaction import Transaction
 from datetime import date
 
-#from .variables import _COURSE_YEAR
 _COURSE_YEAR = (
     ('1', '1'),
     ('2', '2'),
@@ -53,16 +52,6 @@ class LectiveYear(ModelSQL, ModelView):
             u'Não foi possível cadastrar o novo ano letivo, por favor verificar se a data de início é menor que a data de término.')
         ]
         cls._order = [('name', 'ASC')]
-
-    '''
-    @classmethod
-    def delete(cls, lective_years):
-        for lective_year in lective_years:            
-            if len(lective_year.classes) < 1:
-                super(LectiveYear, cls).delete(lective_year)
-            else:
-                raise UserError("Não foi possível eliminar o ano letivo, por favor verificar se o mesmo já tem uma turma associada.")	
-    '''
     
     @classmethod
     def default_start(cls):
@@ -636,16 +625,6 @@ class StudyPlan(ModelSQL, ModelView):
             u'Não foi possível cadastrar o novo plano de estudo, por favor verificar se o nome ou código inserido já existe.')            
         ]
         cls._order = [('classe.classe.name', 'ASC')]
-
-    '''
-    @classmethod
-    def delete(cls, studyplans):
-        for studyplan in studyplans:            
-            if len(studyplan.classes) < 1:
-                super(StudyPlan, cls).delete(studyplan)
-            else:
-                raise UserError("Não foi possível eliminar o plano de estudo, por favor verificar se o mesmo já tem uma turma associada.")	
-    '''
     
     @classmethod
     def get_hours_per_corse_sql(cls):
@@ -745,16 +724,6 @@ class StudyPlanDiscipline(ModelSQL, ModelView):
             u'Não foi possível cadastrar a disciplina neste plano de estudo, por favor verificar se a média de aprovação esta acima de 20 valores.')
         ]
         cls._order = [('discipline.name', 'ASC')]
-
-    '''
-    @classmethod
-    def delete(cls, studyplan_disciplines):
-        for studyplan_discipline in studyplan_disciplines:            
-            if len(studyplan_discipline.studyplan.classes) < 1:
-                super(StudyPlanDiscipline, cls).delete(studyplan_discipline)
-            else:
-                raise UserError("Não foi possível eliminar a discplina do plano de estudo, por favor verificar se o mesmo já tem uma turma associada.")	
-    '''
     
     def get_rec_name(self, name):
         t1 = '%s' % \
@@ -814,16 +783,6 @@ class StudyPlanAvaliation(ModelSQL, ModelView):
              u'Não foi possível cadastrar a nova avaliação, por favor verificar se a disciplina e o período letivo, já esixtem para está avaliação.')
         ]      
         cls._order = [('quarter.name', 'ASC')]
-
-    '''
-    @classmethod
-    def delete(cls, studyplan_avaliations):
-        for studyplan_avaliation in studyplan_avaliations:            
-            if len(studyplan_avaliation.studyplan_discipline.studyplan.classes) < 1:
-                super(StudyPlanAvaliation, cls).delete(studyplan_avaliations)
-            else:
-                raise UserError("Não foi possível eliminar avaliação da discplina por favor verificar se o plano de estudo já tem uma turma associada.")	
-    '''
     
     def get_rec_name(self, name):
         t1 = '%s' % \

@@ -1,7 +1,7 @@
 # This file is part of SAGE Education.   The COPYRIGHT file at the top level of
 # this repository contains the full copyright notices and license terms.
 
-" Início variavéis globais"
+" Global variables start"
 sel_sex = (
     (None, ''),
     ('Masculino', 'Masculino'), ('Femenino', 'Femenino') 
@@ -43,4 +43,4 @@ sel_position = (
     ('Coordenador da classe', 'Coordenador da classe'), ('Professor', 'Professor'),
     ('Professor estagiário', 'Professor estagiário'),
 )
-" Fim variavéis globais"
+" Global variables end"

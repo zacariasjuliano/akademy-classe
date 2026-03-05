@@ -82,7 +82,7 @@ class ClasseStudentTimeRuleReport(Report):
 
 		for classe_student_discipline in classe_student[0].classe_student_discipline:
 			for timerule in classe_timerule:		
-				print(timerule.lesson_time.name, classe_student_discipline.studyplan_discipline.discipline.name)	
+					
 				if classe_student_discipline.studyplan_discipline == timerule.mon:
 					mon = timerule.mon.discipline.name					
 					lesson_time = timerule.lesson_time.name
