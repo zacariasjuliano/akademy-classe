@@ -66,13 +66,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classes_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classes-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classes-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classes-group_akademy_student"/>
@@ -102,13 +95,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classe_student_line1">
-            <field name="domain" pyson="1" 
-                eval="[('student.company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classe_student-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classe_student-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classe_student-group_akademy_student"/>
@@ -138,13 +124,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classe_student_discipline_line1">
-            <field name="domain" pyson="1" 
-                eval="[('classe_student.student.company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classe_student_discipline-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classe_student_discipline-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classe_student_discipline-group_akademy_student"/>
@@ -174,13 +153,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classe_teacher_line1">
-            <field name="domain" pyson="1" 
-                eval="[('employee.company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classe_teacher-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classe_teacher-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classe_teacher-group_akademy_student"/>
@@ -210,13 +182,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classe_teacher_discipline_line1">
-            <field name="domain" pyson="1" 
-                eval="[('classe_teacher.employee.company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classe_teacher_discipline-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classe_teacher_discipline-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classe_teacher_discipline-group_akademy_student"/>
@@ -246,13 +211,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classe_teacher_lesson_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classe_teacher_lesson-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classe_teacher_lesson-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classe_teacher_lesson-group_akademy_student"/>
@@ -282,13 +240,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classe_timerule_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classe_timerule"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classe_timerule-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classe_timerule-group_akademy_student"/>
@@ -318,13 +269,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classe_teacher_presence_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classe_teacher_presence-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classe_teacher_presence-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classe_teacher_presence-group_akademy_student"/>
@@ -354,13 +298,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_classe_student_presence_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_classe_student_presence-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_classe_student_presence-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_classe_student_presence-group_akademy_student"/>
@@ -390,13 +327,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_lective_year_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_lective_year-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_lective_year-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_lective_year-group_akademy_student"/>
@@ -426,13 +356,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_quarter_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_quarter-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_quarter-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_quarter-group_akademy_student"/>
@@ -462,13 +385,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_time_course_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_time_course-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_time_course-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_time_course-group_akademy_student"/>
@@ -498,13 +414,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_classe_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_classe-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_classe-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_classe-group_akademy_student"/>
@@ -534,13 +443,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_classe_time_type_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_classe_time_type-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_classe_time_type-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_classe_time_type-group_akademy_student"/>
@@ -570,13 +472,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_matriculation_type_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_matriculation_type-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_matriculation_type-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_matriculation_type-group_akademy_student"/>
@@ -606,13 +501,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_matriculation_state_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_matriculation_state-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_matriculation_state-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_matriculation_state-group_akademy_student"/>
@@ -642,13 +530,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_discipline_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_discipline-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_discipline-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_discipline-group_akademy_student"/>
@@ -678,13 +559,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_discipline_modality_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_discipline_modality-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_discipline_modality-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_discipline_modality-group_akademy_student"/>
@@ -714,13 +588,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_discipline_state_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_discipline_state-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_discipline_state-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_discipline_state-group_akademy_student"/>
@@ -750,13 +617,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_discipline_precedents_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_discipline_precedents-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_discipline_precedents-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_discipline_precedents-group_akademy_student"/>
@@ -786,13 +646,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_classe_lesson_type_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_classe_lesson_type-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_classe_lesson_type-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_classe_lesson_type-group_akademy_student"/>
@@ -822,13 +675,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_classe_room_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_classe_room-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_classe_room-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_classe_room-group_akademy_student"/>
@@ -858,13 +704,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_academic_level_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_academic_level-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_academic_level-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_academic_level-group_akademy_student"/>
@@ -894,13 +733,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_area_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_area-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_area-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_area-group_akademy_student"/>
@@ -930,13 +762,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_course_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_course-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_course-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_course-group_akademy_student"/>
@@ -966,13 +791,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_course_classe_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_course_classe-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_course_classe-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_course_classe-group_akademy_student"/>
@@ -1002,13 +820,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_metric_avaliation_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_metric_avaliation"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_metric_avaliation-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_metric_avaliation-group_akademy_student"/>
@@ -1038,13 +849,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_avaliation_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_avaliation-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_avaliation-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_avaliation-group_akademy_student"/>
@@ -1074,13 +878,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_avaliation_type_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_avaliation_type-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_avaliation_type-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_avaliation_type-group_akademy_student"/>
@@ -1110,13 +907,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_studyplan_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_studyplan-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_studyplan-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_studyplan-group_akademy_student"/>
@@ -1146,13 +936,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_studyplan_discipline_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_studyplan_discipline-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_studyplan_discipline-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_studyplan_discipline-group_akademy_student"/>
@@ -1182,13 +965,6 @@ this repository contains the full copyright notices and license terms. -->
             <field name="perm_create" eval="False"/>
             <field name="perm_delete" eval="False"/>
         </record>
-        <!--
-        <record model="ir.rule" id="rule_group_akademy_config_studyplan_avaliation_line1">
-            <field name="domain" pyson="1" 
-                eval="[('company', '=', Eval('user', {}).get('company', None))]" />
-            <field name="rule_group" ref="rule_group_akademy_config_studyplan_avaliation-group_akademy_student"/>
-        </record>
-        -->
         <record model="ir.rule.group-res.group" 
             id="res_group_akademy_config_studyplan_avaliation-group_akademy_student">
             <field name="rule_group" ref="rule_group_akademy_config_studyplan_avaliation-group_akademy_student"/>

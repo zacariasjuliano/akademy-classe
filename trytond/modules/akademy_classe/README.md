@@ -1,7 +1,7 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
-**Version:** 1.1.x  
-**Module:** Akademy Class  
+**Version:** 1.2.x  
+**Module:** Akademy Class 
 **Developer:** Zacarias Juliano Capingala  
 
 
@@ -20,6 +20,18 @@ No matter where in the world you live, we are passionate about upholding educati
 
 We hope you find **SAGE Education** motivating and inspiring, and we look forward to having you as part of the team.
 
+
+We host a public demo server where you can try out SAGE Education with different access profiles:
+[sage.comunidadedosaber.ao](https://sage.comunidadedosaber.ao)
+
+
+| **Profile** | **User**     | 
+|-------------|--------------|
+| Student     | student      |
+| Teacher     | teacher      | 
+| Secretary   | secretary    | 
+| Direction   | direction    | 
+| Admin       | admin        |
 
 ---
 
@@ -93,10 +105,12 @@ It is suitable for **schools, training centers, and higher education institution
 - Educational software integrators
 
 ### 🌐 Homepage
-
-**Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
+  
 **Website:** [sage-edu.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
-**E-mail:** [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)
+**App:** [sage.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**Docs:** [docs.comunidadedosaber.ao](https://sage-edu.comunidadedosaber.ao)  
+**Team:** [comunidadedosaber.ao](https://comunidadedosaber.ao)  
+**PyPi:** [SAGE Edu](https://pypi.org/user/comunidade_do_saber)
 
 
 ---
@@ -111,6 +125,8 @@ Please open an issue or submit a pull request following the SAGE Edu contributio
 
 If you encounter any errors or require technical support, please contact us through the channels below:
 
-- 📧 **E-mail:** [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
+- 📧 **E-mail:** 
+    -   [suporte@comunidadedosaber.ao](mailto:suporte@comunidadedosaber.ao)
+    -   [comercial@comunidadedosaber.ao](mailto:comercial@comunidadedosaber.ao)   
 - 💬 **WhatsApp:** [+244 955 868 110](https://wa.me/244955868110)
 
