@@ -1714,3 +1714,162 @@ msgstr ""
 "Não foi possível cadastrar a nova avaliação, por favor verificar se a disciplina e "
 "o período letivo, já esixtem para está avaliação."
 
+msgctxt "view:akademy_configuration.academic.level:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.academic.level:"
+msgid "Áreas"
+msgstr "Áreas"
+
+msgctxt "view:akademy_configuration.area:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.area:"
+msgid "Cursos"
+msgstr "Cursos"
+
+msgctxt "view:akademy_configuration.avaliation:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.avaliation.type:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.classe:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.classe:"
+msgid "Cursos"
+msgstr "Cursos"
+
+msgctxt "view:akademy_classe.classe.student:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_classe.classe.student:"
+msgid "Disciplinas"
+msgstr "Disciplinas"
+
+msgctxt "view:akademy_classe.classe.student:"
+msgid "Presenças"
+msgstr "Presenças"
+
+msgctxt "view:akademy_classe.classe.teacher:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_classe.classe.teacher:"
+msgid "Disciplinas"
+msgstr "Disciplinas"
+
+msgctxt "view:akademy_classe.classe.teacher:"
+msgid "Presenças"
+msgstr "Presenças"
+
+msgctxt "view:akademy_configuration.classe.room:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_classe.classes:"
+msgid "Discentes"
+msgstr "Discentes"
+
+msgctxt "view:akademy_classe.classes:"
+msgid "Docentes"
+msgstr "Docentes"
+
+msgctxt "view:akademy_classe.classes:"
+msgid "Horários"
+msgstr "Horários"
+
+msgctxt "view:akademy_classe.classes:"
+msgid "Planos de Aulas"
+msgstr "Planos de Aulas"
+
+msgctxt "view:company.student:"
+msgid "Matrículas"
+msgstr "Matrículas"
+
+msgctxt "view:akademy_configuration.course.classe:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.course:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.course:"
+msgid "Classes"
+msgstr "Classes"
+
+msgctxt "view:akademy_configuration.discipline:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.lective.year:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.lective.year:"
+msgid "Períodos letivos"
+msgstr "Períodos letivos"
+
+msgctxt "view:akademy_configuration.lective.year:"
+msgid "Planos de Estudos"
+msgstr "Planos de Estudos"
+
+msgctxt "view:akademy_configuration.lective.year:"
+msgid "Turmas"
+msgstr "Turmas"
+
+msgctxt "view:akademy_configuration.metric.avaliation:"
+msgid "Planos de Estudos"
+msgstr "Planos de Estudos"
+
+msgctxt "view:akademy_configuration.quarter:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.quarter:"
+msgid "Avaliações"
+msgstr "Avaliações"
+
+msgctxt "view:akademy_configuration.studyplan.avaliation:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.studyplan.discipline:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_configuration.studyplan.discipline:"
+msgid "Antencedentes"
+msgstr "Antencedentes"
+
+msgctxt "view:akademy_configuration.studyplan.discipline:"
+msgid "Avaliações"
+msgstr "Avaliações"
+
+msgctxt "view:akademy_configuration.studyplan.discipline:"
+msgid "Planos de Aulas"
+msgstr "Planos de Aulas"
+
+msgctxt "view:akademy_configuration.studyplan:"
+msgid "Disciplinas"
+msgstr "Disciplinas"
+
+msgctxt "view:akademy_configuration.time.course:"
+msgid "Descrição"
+msgstr "Descrição"
+
+msgctxt "view:akademy_classe.classe.teacher.lesson:"
+msgid "Objectivos"
+msgstr "Objectivos"
+
+msgctxt "view:akademy_classe.classe.teacher.lesson:"
+msgid "Sumário"
+msgstr "Sumário"

@@ -1,8 +1,8 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
-**Version:** 1.2.x  
+**Version:** 1.3.x  
 **Module:** Akademy Class   
-**Developer:** Zacarias Juliano Capingala  
+**Developer:** Zacarias Juliano Capingala *(FPC)*  
 
 
 ---
@@ -39,7 +39,7 @@ We host a public demo server where you can try out SAGE Education with different
 
 ## Akademy Class Module
 
-The **Akademy Class (Class Management)** module is a complementary module responsible for **academic management focused on classes**, keeping all information organized and accessible to the institution.
+The **Akademy Class (Classes Management)** module is a complementary module responsible for **academic management focused on classes**, keeping all information organized and accessible to the institution.
 
 It offers advanced tools for **controlling classes, teachers, and students**, allowing for centralized and efficient monitoring of each student's performance and progress.
 

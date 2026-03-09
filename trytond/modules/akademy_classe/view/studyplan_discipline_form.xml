@@ -29,7 +29,7 @@ this repository contains the full copyright notices and license terms. -->
         <page string="Descrição" id="description">
             <field name="description" widget="richtext"/>
         </page>
-        <page string="Atencedentes" id="discipline_precedentes">
+        <page string="Antencedentes" id="discipline_precedentes">
             <field name="discipline_precedentes" mode="tree,form" colspan="2"
                 view_ids="akademy_classe.discipline_precedents_view_tree,akademy_classe.discipline_precedents_view_form"/>
         </page>
