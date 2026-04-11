@@ -1,8 +1,7 @@
 # 🏫 SAGE Education - Institutional Management / ERP
 
-**Version:** 1.3.x  
-**Module:** Akademy Class   
-**Developer:** Zacarias Juliano Capingala *(FPC)*  
+**Module:** Akademy Classe   
+**Version:** 7.0.x   
 
 
 ---
